@@ -1,0 +1,131 @@
+.news-articles {
+    height: auto;
+    padding: 13px 0 20px;
+    /* width: 330px !important; */
+	width: 100% !important;
+  /* fallback */
+  background-color: #e2e3e4;
+  background-repeat: repeat-x;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2e3e4), to(#ffffff));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #e2e3e4, #ffffff);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #e2e3e4, #ffffff);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #e2e3e4, #ffffff);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #e2e3e4, #ffffff);
+}
+
+.news-articles h3 {
+	text-align: left;
+}
+
+.left-col {
+    border-right: 1px solid #CBCBCC;
+    float: left;
+    max-height: 110px;
+    padding-left: 16px;
+	padding-right: 24px;
+    width: 77px !important;
+}
+
+.event-dates {
+    clear: both;
+    color: #004E8E;
+    display: block;
+    font-family: 'Convergence',sans-serif;
+    font-size: 15px;
+    text-align: right;
+}
+
+.event-year {
+    clear: both;
+    color: #1D1D1D;
+    display: block;
+    font-family: 'PT Sans',Verdana,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: right;
+}
+
+.date-box {
+    background: none repeat scroll 0 0 #1B1B1B;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font: 50px/70px 'Convergence',sans-serif;
+    height: 71px !important;
+    margin-left: 10px;
+    text-align: center;
+    width: 71px !important;
+}
+
+.right-col {
+    display: block;
+    float: left;
+    padding-left: 22px;
+    width: 200px !important;
+}
+
+.show-title {
+    color: #000000;
+    float: left;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: left !important;
+    text-transform: capitalize;
+}
+
+.show-text {
+    float: left;
+    font-family: verdana;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 0 0 7px;
+    text-align: left;
+}
+
+.news-btn {
+    background-color: #004E8E;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font: 12px 'Convergence',sans-serif;
+    text-transform: uppercase;
+
+}
+
+.news-btn:hover {
+	color: #fff;
+	background-color: #008AFF;
+}
+
+.shows {
+    font-size: 11px;
+    padding: 0 11px;
+}
+
+.view-all {
+	padding: 5px 11px;
+	float: none;
+}
+
+.shows-hdr {
+    color: #004E8E;
+    font: 20px 'Verdana','Geneva',sans-serif;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+
+.section {
+    float: left;
+    margin: 0 0 17px;
+}

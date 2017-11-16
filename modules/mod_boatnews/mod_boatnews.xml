@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5">
+  <name>Boat News</name>
+  <author>Jalin Burton</author>
+  <version>1.0.0</version>
+  <description>Boat News</description>
+  <files>
+    <filename>mod_boatnews.xml</filename>
+    <filename module="mod_boatnews">mod_boatnews.php</filename>
+    <filename>index.html</filename>
+    <filename>helper.php</filename>
+    <filename>tmpl/default.php</filename>
+    <filename>tmpl/index.html</filename>
+  </files>
+  <config>
+    <fields name="params">
+      <fieldset name="basic" addfieldpath="/administrator/components/com_content/models/fields">
+	    <field name="spacer" type="spacer" default="" label="In the areas below, please set the Boat News Information. You will need the Start Day and End Day (as numbers), the month, the associated article you would like to display to readers, and a short excerpt no longer than xxx characters long. All Fields are Required." />
+		
+		<field name="show_category" type="text" label="URL for the View All Link (no leading slash)" description="Select a category for the View All Link" size="250" />
+		
+		<field name="category_title" type="text" label="Text for the View All Link " description="Enter the Text for the View All Link" size="250" />
+		
+		<field name="article_id_1" type="modal_article" default="" label="Boat News Article 1" description="Select the article that you would like to use to inform readers about this upcoming Boat News. It must already exist as a published article." />
+		
+		<field name="title_1" type="text" default="" label="Boat News 1 Title" description="Boat News 1 Title" size="60"/>
+
+		<field name="year_1" type="text" default="" label="Boat News 1 Year (4 digit number)" description="Boat News 1 Year (4 digit number)" size="60"/>
+		
+		<field name="month_1" type="text" default="" label="Boat News 1 Month" description="Enter the Month in which this Boat News Post was created" size="60"/>
+		
+		<field name="date_1" type="text" default="" label="Boat News 1 Day (Number Only)" description="Enter the day of this Boat News post" size="60"/>
+		
+		
+		<field name="article_excerpt_1" type="textarea" default="" label="Boat News Article 1 Excerpt (maximum of xxx characters)" description="Boat News Article 1 Excerpt" size="100"/>
+		
+
+		
+		<field name="article_id_2" type="modal_article" default="" label="Boat News Article 2" description="Select the article that you would like to use to inform readers about this upcoming Boat News. It must already exist as a published article." />
+		
+		<field name="title_2" type="text" default="" label="Boat News 2 Title" description="Boat News 2 Title" size="60"/>
+		
+		<field name="year_2" type="text" default="" label="Boat News 2 Year (4 digit number)" description="Boat News 2 Year (4 digit number)" size="60"/>
+		
+		<field name="month_2" type="text" default="" label="Boat News 2 Month" description="Enter the Month in which this Boat News post was created" size="60"/>
+		
+		<field name="date_2" type="text" default="" label="Boat News Day (Number Only)" description="Enter the day of this Boat News post was created" size="60"/>
+		
+		<field name="article_excerpt_2" type="textarea" default="" label="Boat News Article 2 Excerpt (maximum of xxx characters)" description="Boat News Article 2 Excerpt" size="100"/>
+
+
+		
+      </fieldset>
+
+
+
+    </fields>
+  </config>
+  <params></params>
+</extension>
